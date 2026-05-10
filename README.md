@@ -37,5 +37,33 @@ b) Cấu hình Admin (pawn_app/admin.py):
 ## <img width="1491" height="447" alt="image" src="https://github.com/user-attachments/assets/bcac2f68-14a8-48c4-9147-63d9b5b1ae66" />
 ## <img width="1118" height="941" alt="image" src="https://github.com/user-attachments/assets/91075a2d-0242-4f3a-9747-d792e1ce2612" />
 Tạo trang "Con Nợ Đến Hạn"
-## ![Uploading image.png…]()
+## <img width="660" height="272" alt="image" src="https://github.com/user-attachments/assets/a2011879-201c-4d59-ad33-3577ae5c7190" />
+# Cấu hình URLs (config/urls.py):
+## <img width="1917" height="956" alt="image" src="https://github.com/user-attachments/assets/20737504-e1d2-4653-ac7e-aba0df4467bd" />
+# Truy cập: http://192.168.1.14:8000/admin/ để đăng nhập vào Django
+## <img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/760ac1e2-61ba-428f-a760-4560373cad16" />
+## <img width="1919" height="972" alt="image" src="https://github.com/user-attachments/assets/e83f1f4a-74ca-4c9e-b56e-6c09ca940180" />
+# truy cập http://192.168.1.14.8080 để xem Php
+## <img width="1560" height="968" alt="image" src="https://github.com/user-attachments/assets/a964859d-6128-452c-b620-e5f940ad64b1" />
+# Tạo Template HTML (pawn_app/templates/home.html):
+## <img width="1919" height="932" alt="image" src="https://github.com/user-attachments/assets/ea04b06c-7921-45d2-9724-205898757dff" />
+Thêm dữ liệu và truy cập http://192.168.1.14:8000/ để xem templates
+## <img width="1530" height="965" alt="image" src="https://github.com/user-attachments/assets/d43efda2-974b-434c-87e8-e9b21b712b51" />
+# Triển khai CloudFlare 
+Sử dụng Nginx trung gian,
+trên Cloudflare, trỏ tất cả tên miền dạng *.tenmien.com về http://nginx:80. Sau đó, dưới server, tạo file cấu hình file default.conf của Nginx để làm nhiệm vụ chia đường
+# Trong bài em Tạo Folder tunnel_gateway
+Là một mạng ảo nội bộ chung do tunnel_gateway tạo ra. <br>
+Các dự án độc lập trên máy chủ chỉ cần "cắm" vào mạng này là có thể giao tiếp với Nginx để nhận dữ liệu từ Internet, đảm bảo tính tách biệt và bảo mật cao.
+sau này chỉ cần mở 1 port cho nhiều project -> Thêm cấu hình là xong thay vì phải tạo thêm Container vào docker-compose.yml
+# cấu hình
+## <img width="1542" height="951" alt="image" src="https://github.com/user-attachments/assets/b96ee69d-a790-4b50-b1a4-c2306f90dda5" />
+## <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/708c1b4f-6906-48f0-b585-2eb43b424c21" />
+# app thêm router trên clou 
+## <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/80d70c63-711a-47cb-a5da-e9909302740e" />
+# Kết quả: 
+## <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a5d1b160-b566-4b1b-ae7c-17f279cca737" />
+
+
+
 
