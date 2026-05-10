@@ -1,8 +1,9 @@
 # Môn: Phát triển ứng dụng với mã nguồn mở
 nguyễn lam sơn_K225480106076
 # Bài làm
-## TỔ CHỨC CSDL CHO HỆ THỐNG QUẢN LÝ TIỆM CẦM ĐỒ: viết tay ra giấy, lấy điện thoại chụp lại, upload ảnh lên github (đã nói về các nghiệp vụ trên lớp, ghi bảng)
-# 
+## TỔ CHỨC CSDL CHO HỆ THỐNG QUẢN LÝ TIỆM CẦM ĐỒ 
+viết tay ra giấy, lấy điện thoại chụp lại, upload ảnh lên github (đã nói về các nghiệp vụ trên lớp, ghi bảng)
+# <img width="538" height="677" alt="image" src="https://github.com/user-attachments/assets/c1501ab5-89b4-411b-9a16-941d72825d06" />
 ## 1.SỬ DỤNG DOCKER TRÊN UBUNTU ĐỂ:
 Mariadb : chứa csdl của hệ thống này
 Phpmyadmin: để soi được csdl (chỉ để xem, ko cần tạo bảng từ đây, django sẽ làm hết)
